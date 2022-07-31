@@ -1,5 +1,5 @@
 # interactive-socket-single-user
-Its a basic Java web socket interactive application that that serves single client only. While a client is already connected, other requesting clients would be waiting. Once the connected client disconnects, if there is a client waiting will get automatically connected to the server.
+Its a basic Java web socket interactive application that serves single client only. While a client is already connected, other requesting clients would be waiting. Once the connected client disconnects, if there is a client waiting will get automatically connected to the server.
 
 ### Where can you get from here?
 Well, this is the pretty much **basics** of *Socket Programming in Java*. Handling a single client request without using any thread pool is a pretty simple task compared to maintaining a thread pool of client sockets and servicing all of them. Also for notifying a waiting client, I have also used threads so it would be a nice example for anyone starting Socket Programming in Java.
