@@ -2,14 +2,14 @@
 Its a basic Java web socket interactive application that serves single client only. While a client is already connected, other requesting clients would be waiting. Once the connected client disconnects, if there is a client waiting will get automatically connected to the server.
 
 ### Where can you get from here?
-Well, this is the pretty much **basics** of *Socket Programming in Java*. Handling a single client request without using any thread pool is a pretty simple task compared to maintaining a thread pool of client sockets and servicing all of them. Also for notifying a waiting client, I have also used threads so it would be a nice example for anyone starting Socket Programming in Java.
+Well, this is the pretty much **basics** of *Socket Programming in Java*. Handling a single client request without using any thread pool is a pretty simple task compared to maintaining a thread pool of client sockets and servicing all of them. Also for notifying a waiting client, I have used threads so it would be a nice example for anyone starting Socket Programming in Java.
 
 - Here, I have started the server by running ``` java Server ``` in the top left terminal. Then I have started the clients by ``` java Client ``` in the three other terminals. The client that was started first connects to the server and the other two goes waiting.
 
 ![](images/ss1.png)
 
 
-- After ten seconds of waiting, there is a log in the clien terminals saying that the server must be busy.
+- After ten seconds of waiting, there is a log in the client terminals saying that the server must be busy.
 
 ![](images/ss2.png)
 
