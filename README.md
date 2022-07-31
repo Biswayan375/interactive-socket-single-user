@@ -14,7 +14,7 @@ Well, this is the pretty much **basics** of *Socket Programming in Java*. Handli
 ![](images/ss2.png)
 
 
-- I have setup some pre-defined replies of some specific messages from clients to make it a fun.
+- I have setup some pre-defined replies of some specific messages from clients to make it a bit fun.
 
 ![](images/ss3.png)
 
